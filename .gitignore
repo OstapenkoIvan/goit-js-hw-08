@@ -1,3 +1,4 @@
+
 #Junk
 .DS_Store
 .vscode/
@@ -78,7 +79,9 @@ typings/
 .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
+
 .parcel-cache
+
 
 # Next.js build output
 .next
