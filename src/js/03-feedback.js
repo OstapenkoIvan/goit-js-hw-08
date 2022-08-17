@@ -17,11 +17,11 @@ function saveInputLocalStorage(evt) {
 }
 
 function getSavedData() {
-  formData = JSON.parse(localStorage.getItem('feedback-form-state')) || {};
+  const savedData = JSON.parse(localStorage.getItem('feedback-form-state'));
 
-  if (formData) {
-    inputEl.value = formData.email;
-    textareaEl.value = formData.message;
+  if (savedData) {
+    inputEl.value = savedData.email;
+    textareaEl.value = savedData.message;
   }
 }
 
