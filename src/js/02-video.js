@@ -2,7 +2,6 @@ import throttle from 'lodash.throttle';
 import Player from '@vimeo/player';
 
 const currentTime = localStorage.getItem('videoplayer-current-time');
-console.log('file: 02-video.js / line 5 / currentTime', currentTime);
 
 const player = new Player('vimeo-player', {
   id: 236203659,
